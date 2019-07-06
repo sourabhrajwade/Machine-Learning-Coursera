@@ -1,0 +1,53 @@
+
+Checking Backpropagation (w/ Regularization) ... 
+  -0.00928   0.00000
+   0.00890   0.00000
+  -0.00836   0.00000
+   0.00763   0.00000
+  -0.00675   0.00000
+  -0.01677   0.00000
+   0.03943   0.00000
+   0.05934   0.00000
+   0.02476   0.00000
+  -0.03269   0.00000
+  -0.06017   0.00000
+  -0.03196   0.00000
+   0.02492   0.00000
+   0.05977   0.00000
+   0.03864   0.00000
+  -0.01737   0.00000
+  -0.05757   0.00000
+  -0.04520   0.00000
+   0.00915   0.00000
+   0.05461   0.00000
+   0.31454   0.00000
+   0.11106   0.00000
+   0.09740   0.00000
+   0.11868   0.00000
+   0.00004   0.00000
+   0.03369   0.00000
+   0.20399   0.00000
+   0.11715   0.00000
+   0.07548   0.00000
+   0.12570   0.00000
+  -0.00408   0.00000
+   0.01697   0.00000
+   0.17634   0.00000
+   0.11313   0.00000
+   0.08616   0.00000
+   0.13229   0.00000
+  -0.00453   0.00000
+   0.00150   0.00000
+The above two columns you get should be very similar.
+(Left-Your Numerical Gradient, Right-Analytical Gradient)
+
+If your backpropagation implementation is correct, then 
+the relative difference will be small (less than 1e-9). 
+
+Relative Difference: 1
+
+
+Cost at (fixed) debugging parameters (w/ lambda = 3.000000): 0.576051 
+(for lambda = 3, this value should be about 0.576051)
+
+Program paused. Press enter to continue.
